@@ -3,13 +3,12 @@ markdown: kramdown
 highlighter: rouge
 
 # Setup
-title: PAASTA Community
-tagline: Website for the PAASTA Community
-description: |
-  Website for the PAASTA Community
+title: forked
+tagline: 
+description: 
 url: "https://yc386.github.io"
 baseurl: "/forked_pasta"
-  "/"
+
   # the optional subpath of your site, e.g. "/blog"
   # NB: This applies to all pages in your Jekyll site.
   # If you want to move just the blog index pages but keep
