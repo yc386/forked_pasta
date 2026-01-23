@@ -3,41 +3,41 @@
   <header>
   <{% if page.layout == "index" %}h1{% else %}div{% endif %} class="site-title">
   {% unless page.url == "/" %}
-  <span class="back-arrow icon">{% include svg/back-arrow.svg %}</span>
+    <span class="back-arrow icon">{% include svg/back-arrow.svg %}</span>
   {% endunless %}
-  <a href="/">
-  <img src="/assets/media/paasta_no_bg.png" alt="PAASTA Community" class="center" role="log"/>
+
+  <a href="{{ '/' | relative_url }}">
+    <img src="{{ '/assets/media/paasta_no_bg.png' | relative_url }}"
+         alt="PAASTA Community"
+         class="center"
+         role="logo"/>
   </a>
+
   </{% if page.layout == "index" %}h1{% else %}div{% endif %}>
   <p class="lead">{{ site.description }}</p>
   </header>
-  
 
-<a href="/about">About</a> 
-<!-- <a href="/category/news">News</a> -->
-<!-- <a href="/category/blog">Blog</a>
-<a href="/projects">Projects</a> -->
-<a href="/category/events">Events</a>
-<a href="/category/newsletter">Newsletter</a>
-<!-- <a href="/category/publications">Publications</a> -->
-<a href="/code-of-conduct">Code of Conduct</a>
-<a href="/constitution">Constitution</a>
-<a href="/steering_committee">Steering Committee</a>
-<a href="/support-and-acknowledgements">Support and Acknowledgements</a>
+  <a href="{{ '/about/' | relative_url }}">About</a> 
+  <a href="{{ '/category/events/' | relative_url }}">Events</a>
+  <a href="{{ '/category/newsletter/' | relative_url }}">Newsletter</a>
+  <a href="{{ '/code-of-conduct/' | relative_url }}">Code of Conduct</a>
+  <a href="{{ '/constitution/' | relative_url }}">Constitution</a>
+  <a href="{{ '/steering_committee/' | relative_url }}">Steering Committee</a>
+  <a href="{{ '/support-and-acknowledgements/' | relative_url }}">Support and Acknowledgements</a>
 
-
-
-  
-  </nav>
   {% if site.version %}
-  <span class="site-version">Currently v{{ site.version }}</span>
+    <span class="site-version">Currently v{{ site.version }}</span>
   {% endif %}
+
   {% include sidebar-icon-links.html %}
-  
-  <p class='copyright'> &copy; {{ site.time | date: '%Y' }}.
-  <a href="{{ "/LICENSE.md" | relative_url }}">MIT License.</a>
+
+  <p class="copyright">
+    &copy; {{ site.time | date: '%Y' }}.
+    <a href="{{ '/LICENSE.md' | relative_url }}">MIT License.</a>
   </p>
-  </div>
+
+</div>
+
 
 
 
