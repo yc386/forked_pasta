@@ -86,3 +86,31 @@ $root-font-family: -apple-system, "Varela Round", Arial, sans-serif !default;
   color: #000;
   font-weight: bold;
 }
+
+#sidebar-icon-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+#sidebar-icon-links a.icon {
+  width: 44px;
+  height: 44px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: #04471C;
+}
+
+#sidebar-icon-links a.icon svg {
+  width: 28px;
+  height: 28px;
+  transition: transform 0.2s ease;
+}
+
+#sidebar-icon-links a.icon:hover svg {
+  transform: scale(1.15);
+}
