@@ -5,7 +5,9 @@ sidebar_link: true
 ---
 <!-- Last edit of this page: 10-10-2023> -->
 
-<img src="/assets/media/PAASTA-Logo-Full-Colour.png" class="center" width="50%" >
+<img src="{{ '/assets/media/PAASTA-Logo-Full-Colour.png' | relative_url }}"
+     class="center"
+     width="50%">
 
 We are "Palaeoproteomics and Archaeology, Society for Techniques and Advances", or PAASTA for short, a community of researchers working on palaeoproteomics, the study of ancient proteins.
 
