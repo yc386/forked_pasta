@@ -11,5 +11,7 @@ If you would like to sign up to the newsletter [**mailing list**](https://forms.
 ## Previous newsletters
 [**2025_1 (PDF)**]({{ '/assets/files/PAASTA_Newsletter_2025_1.pdf' | relative_url }})
 ·
-<a href="{{ '/assets/files/PAASTA_Newsletter_2025_1.pdf' | relative_url }}" download>Download</a>
-[**2025_2**](https://drive.google.com/file/d/1xzXYoHVQ7u1gSrid0buLcHTbFobVKSIC/view?usp=sharing)
+<a href="{{ '/assets/files/PAASTA_Newsletter_2025_1.pdf' | relative_url }}" download>Download</a><br>
+[**2025_2 (PDF)**]({{ '/assets/files/PAASTA_Newsletter_2025_2.pdf' | relative_url }})
+·
+<a href="{{ '/assets/files/PAASTA_Newsletter_2025_2.pdf' | relative_url }}" download>Download</a>
